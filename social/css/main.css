@@ -1,0 +1,151 @@
+body {
+    background-color: #20222f;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #8e97c0;
+    letter-spacing: 1px;
+}
+
+
+/* Add gradient background to form-check-input */
+header .form-check-input {
+    width: 39px !important;
+    height: 21px;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23373b58'/%3e%3c/svg%3e");
+    /* background: #373b58 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23373b58'/%3e%3c/svg%3e"); */
+}
+
+header .form-check-input:checked {
+    background-color: transparent;
+    color: transparent;
+}
+
+.form-switch {
+    background-image: linear-gradient(to right, #3ed18c, #4792cc);
+    width: 39px !important;
+    height: 21px;
+    border-radius: 2em;
+    min-height: auto;
+}
+
+.social-card {
+    background-color: #252b43;
+    border-top: 3px solid #ffffff;
+}
+
+.social-card h5 {
+    font-size: 11px;
+    color: #8e97c0;
+}
+
+.social-card h5 span {
+    display: inline-block;
+}
+
+.social-card h6 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.social-card p {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #8e97c0;
+}
+
+.social-card a {
+    font-size: 11px;
+    color: #45ac97;
+    text-decoration: none;
+}
+
+.facebook-section {
+    border-top: 3px solid #178ff5;
+}
+
+.twitter-section {
+    border-top: 3px solid #1ea1f1;
+}
+
+.instgram-section {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right,#fcbe66,#e15593) 1 0 0 0;
+}
+
+.youtube-section {
+    border-top: 3px solid #c4032b;
+}
+
+.red-link {
+    color: #dc414c !important;
+}
+
+.overview-section h2 {
+    font-size: 27px;
+    font-weight: 600; 
+}
+
+.small-social-card {
+    background-color: #252b43;  
+}
+
+.small-social-card .sub-text {
+    font-size: 14px;
+    color: #8e97c0;
+    font-weight: 600;
+}
+
+.small-social-card h5 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.small-social-card .number-text {
+    font-size: 11px;
+    color: #45ac97;
+}
+
+body.light-version {
+    background-color: #ffffff; 
+    color: #000; 
+}
+
+.light-version  header h1 {
+    color: #000;
+}
+
+.light-version  header p {
+    color: #8e97c0;
+}
+
+.light-version .social-card {
+    background-color: #f1f3fa;
+    border: transparent;
+}
+
+
+.light-version .social-card h6 {
+    color: #1e2029;
+}
+
+
+.light-version .small-social-card {
+    background-color: #f1f3fa; 
+    border: transparent;
+    color: #000;    
+}
